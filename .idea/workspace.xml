@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c229ee7d-8608-460b-b4b3-11feb6ae171a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c229ee7d-8608-460b-b4b3-11feb6ae171a" name="Changes" comment="CustomerService">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/engagehub/apis/CustomerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/engagehub/api/CustomerServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/engagehub/apis/dgs/CustomerDataFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/engagehub/api/dgs/CustomerDataFetcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/engagehub/apis/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/engagehub/api/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/engagehub/apis/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/engagehub/api/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/engagehub/apis/resolver/CustomerResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/engagehub/api/resolver/CustomerResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/engagehub/api/CustomerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/engagehub/api/CustomerServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/engagehub/api/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/engagehub/api/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/engagehub/api/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/engagehub/api/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/engagehub/api/resolver/CustomerResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/engagehub/api/resolver/CustomerResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/engagehub/api/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/engagehub/api/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,30 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Microservices" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,7 +86,15 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.CustomerServiceApplication">
+    <configuration name="CustomerServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Microservices.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.engagehub.api.customer.CustomerServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="Microservices.main" />
@@ -91,11 +121,24 @@
       <option name="presentableId" value="Default" />
       <updated>1724512135569</updated>
       <workItem from="1724512136668" duration="504000" />
-      <workItem from="1724591332853" duration="58000" />
+      <workItem from="1724591332853" duration="3028000" />
     </task>
+    <task id="LOCAL-00001" summary="CustomerService">
+      <option name="closed" value="true" />
+      <created>1724593589106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724593589106</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="CustomerService" />
+    <option name="LAST_COMMIT_MESSAGE" value="CustomerService" />
   </component>
 </project>

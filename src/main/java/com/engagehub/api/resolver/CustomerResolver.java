@@ -1,7 +1,7 @@
-package com.engagehub.api.customer.resolver;
+package com.engagehub.api.resolver;
 
 import com.engagehub.api.model.Customer;
-import com.engagehub.api.customer.service.CustomerService;
+import com.engagehub.api.service.CustomerService;
 import com.netflix.graphql.dgs.DgsComponent;
 import com.netflix.graphql.dgs.DgsMutation;
 import com.netflix.graphql.dgs.DgsQuery;
@@ -61,6 +61,4 @@ public class CustomerResolver {
             @InputArgument String phoneNumber) {
         return customerService.searchCustomers(name, email, phoneNumber);
     }
-
-    // Additional resolver methods for other functionalities can be added here.
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c229ee7d-8608-460b-b4b3-11feb6ae171a" name="Changes" comment="Service">
+    <list default="true" id="c229ee7d-8608-460b-b4b3-11feb6ae171a" name="Changes" comment="Git">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +135,9 @@
       <workItem from="1727372454775" duration="49000" />
       <workItem from="1727459391154" duration="42000" />
       <workItem from="1727540277374" duration="45000" />
-      <workItem from="1731176043845" duration="21000" />
+      <workItem from="1731176043845" duration="89000" />
+      <workItem from="1731242159843" duration="603000" />
+      <workItem from="1731421428964" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="CustomerService">
       <option name="closed" value="true" />
@@ -217,7 +219,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727540293798</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Service">
+      <option name="closed" value="true" />
+      <created>1731176097884</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731176097884</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Git">
+      <option name="closed" value="true" />
+      <created>1731176125711</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1731176125711</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +244,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CustomerService" />
     <MESSAGE value="Service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Service" />
+    <MESSAGE value="Git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Git" />
   </component>
 </project>

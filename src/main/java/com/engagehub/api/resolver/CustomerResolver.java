@@ -30,6 +30,7 @@ public class CustomerResolver {
     public Optional<Customer> customer(@InputArgument Long id) {
         return customerService.findCustomerById(id);
     }
+    
 
     @DgsMutation
     public Customer addCustomer(@InputArgument String name,

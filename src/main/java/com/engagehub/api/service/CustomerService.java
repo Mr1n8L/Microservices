@@ -47,3 +47,4 @@ public class CustomerService {
         return customerRepository.findAll(); // Placeholder implementation
     }
 }
+

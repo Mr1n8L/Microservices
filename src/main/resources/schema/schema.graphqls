@@ -16,4 +16,3 @@ type Mutation {
     updateCustomer(id: ID!, name: String!, email: String!, phoneNumber: String!): Customer
     deleteCustomer(id: ID!): Boolean
 }
-
